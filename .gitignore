@@ -1,0 +1,20 @@
+# Secrets — nunca commitear credenciales
+.env
+.env.*
+*.local
+
+# Dependencias y build
+node_modules/
+dist/
+dist-ssr/
+
+# Clon anidado accidental (tiene su propio .git, no va en este repo)
+Repositorio-Hackaton/
+
+# Sistema e IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.log
